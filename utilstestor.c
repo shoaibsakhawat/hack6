@@ -19,3 +19,13 @@ int main()
     }
 
     //adding test case for airdistance
+
+     double lat1=37.7749,lon1=-122.4194,lat2=34.0522,lon2=-118.2437;//values were taken from google.hehe
+
+        printf("testing Air Distance:");
+
+    printf("input:(%f,%f) to (%f,%f)\n",lat1, lon1, lat2, lon2);
+    printf("Expected Output: %f km\n", getAirDistance(lat1, lon1, lat2, lon2));
+    printf("Actual Output: %f km\n", getAirDistance(lat1, lon1, lat2, lon2));
+    if(getAirDistance(lat1,lon1,lat2,lon2)==559.0567)//this was also taken from google i dont know if its correct
+    {
