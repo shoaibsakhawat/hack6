@@ -40,3 +40,23 @@ int main()
 
     //adding test case for lorentztimedilation.
 
+     double t1=1.0,s1=10.0;
+    printf("testing lorentztimedilation:");
+    printf("Input: t = %f, percentC = %f\n", t1, s1);
+    printf("Expected Output: %f\n", lorentzTimeDilation(t1, s1));
+    printf("Actual Output: %f\n", lorentzTimeDilation(t1, s1));
+
+    if(lorentzTimeDilation(t1,s1)==1.0000000007)//value calculated by myself
+    {
+        printf("test passed !!!!!!!!!wohooo");
+    }
+    else 
+    {
+        printf("test failed!!!!! Awwwwww");
+    }
+
+    return 0;
+}
+
+
+
