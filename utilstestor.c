@@ -11,3 +11,11 @@ int main()
     printf("Actual output:%f radians\n",degreesToRadians(a));
     if(degreesToRadians(a)== 0.785)
     {
+
+         printf("test passed!!!! wohoooo");
+    }
+    else{
+        printf("test failed!!!! Awwwww");
+    }
+
+    //adding test case for airdistance
