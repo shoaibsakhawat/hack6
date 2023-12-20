@@ -27,3 +27,14 @@ double destinationLatitude,double destinationLongitude)
     return distance;
 }
 //now going for time wala function
+
+double lorentzTimeDilation(double t,double percentC)
+{
+    double speedOfLight=299792458.0;//  (m/s)
+    double fracC=percentC/100.0;  // to convert it into fraction.
+    double dilatedTime=t/sqrt(1-pow(fracC,2)/pow(speedOfLight,2));
+
+
+    return dilatedTime;
+
+}
