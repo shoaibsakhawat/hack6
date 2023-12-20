@@ -29,3 +29,14 @@ int main()
     printf("Actual Output: %f km\n", getAirDistance(lat1, lon1, lat2, lon2));
     if(getAirDistance(lat1,lon1,lat2,lon2)==559.0567)//this was also taken from google i dont know if its correct
     {
+
+         printf("test passed!!!!!!!!!!!! wohoooo");
+    }
+    else 
+    {
+        printf("test failed!!!!!Awwwwwwwwww");
+    }
+
+
+    //adding test case for lorentztimedilation.
+
